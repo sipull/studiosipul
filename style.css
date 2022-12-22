@@ -119,8 +119,45 @@
     z-index: -1;
   }
 
+  body{
+    background: #f3f5f7;
+    font-family: roboto;
+    text-align: center;
+    color: #232323;
+  }
+  
+  .wrap{
+    margin: 10px auto;
+    width: 950px;
+    padding: 20px;
+    color: #fff;
+    background: #35A9DB;
+    text-align: justify;
+  }
+  
+  
+  /*css3 design scrollbar*/
+  ::-webkit-scrollbar {
+      width: 10px;
+  }
+   
+  ::-webkit-scrollbar-track {     
+      background: #fff;    
+  }
+   
+  ::-webkit-scrollbar-thumb {
+      background: #35A9DB;
+      border-radius:10px;
+  }
+
   .navbar__menu.active {
-    background: #131313;
+    body {
+      color: #fff;
+      background-image: url('SPL03846');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;     /* Tambahkan baris berikut */
+ }
     top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -270,7 +307,7 @@
 
 /* About Section */
 .main {
-  background-color: #131313;
+  background-color: #222222;
   padding: 10rem 0;
 }
 
