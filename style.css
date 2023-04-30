@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'bebas', sans-serif;
+  : 'Comfortaa', cursive;
   scroll-behavior: smooth;
 }
 
@@ -121,7 +121,7 @@
 
   body{
     background: #f3f5f7;
-    font-family: roboto;
+    font: 'Bebas Neue', cursive;
     text-align: center;
     color: #232323;
   }
@@ -134,8 +134,8 @@
     background: #35A9DB;
     text-align: justify;
   }
-  
-  
+}
+
   /*css3 design scrollbar*/
   ::-webkit-scrollbar {
       width: 10px;
@@ -150,15 +150,15 @@
       border-radius:10px;
   }
 
-  .navbar__menu.active {
-    body {
+  .navbar_menu.active {
+  body {
       color: #fff;
       background-image: url('SPL03846');
       background-size: cover;
       background-attachment: fixed;
       background-repeat: no-repeat;     /* Tambahkan baris berikut */
  }
-    top: 100%;
+  { top: 100%;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
@@ -176,7 +176,7 @@
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
     background: #fff;
-  }
+ }
 
   .navbar__item {
     width: 100%;
