@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  : 'Comfortaa', cursive;
+  /* font-family: "Comfortaa", cursive; */
   scroll-behavior: smooth;
 }
 
@@ -96,6 +96,7 @@
   transition: all 0.3s ease;
 }
 
+/* Mobile style */
 @media screen and (max-width: 960px) {
   .navbar__container {
     display: flex;
@@ -116,54 +117,37 @@
     top: -1000px;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: -1;
+    z-index: -10;
   }
 
-  body{
+  .navbar__menu.active{
+    top:90px;
+    background-color: #222222;
+  }
+
+  body {
     background: #f3f5f7;
-    font: 'Bebas Neue', cursive;
+    font-family: "Bebas Neue", cursive;
     text-align: center;
     color: #232323;
   }
+
+
+  body {
+    color: #fff;
+    background-image: url("SPL03846");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Tambahkan baris berikut */
+  }
   
-  .wrap{
+  .wrap {
     margin: 10px auto;
     width: 950px;
     padding: 20px;
     color: #fff;
-    background: #35A9DB;
+    background: #35a9db;
     text-align: justify;
-  }
-}
-
-  /*css3 design scrollbar*/
-  ::-webkit-scrollbar {
-      width: 10px;
-  }
-   
-  ::-webkit-scrollbar-track {     
-      background: #fff;    
-  }
-   
-  ::-webkit-scrollbar-thumb {
-      background: #35A9DB;
-      border-radius:10px;
-  }
-
-  .navbar_menu.active {
-  body {
-      color: #fff;
-      background-image: url('SPL03846');
-      background-size: cover;
-      background-attachment: fixed;
-      background-repeat: no-repeat;     /* Tambahkan baris berikut */
- }
-  { top: 100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 99;
-    height: 60vh;
-    font-size: 1.6rem;
   }
 
   #navbar__logo {
@@ -176,7 +160,7 @@
     margin: 5px auto;
     transition: all 0.3s ease-in-out;
     background: #fff;
- }
+  }
 
   .navbar__item {
     width: 100%;
@@ -392,7 +376,7 @@
 
 .main__btn:after {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 0;
