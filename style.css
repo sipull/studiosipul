@@ -124,7 +124,7 @@
   body {
     background: #f3f5f7;
     text-align: center;
-    color: #232323;
+    color: #bcf3e7;
   }
 
   .wrap {
@@ -199,7 +199,7 @@
 
 /* Hero Section */
 .hero {
-  background-image: url("./aset/sipul.jpg");
+  background-image: url("./aset/ip.webp");
   padding: 100px 10px;
   background-size: cover;
   background-attachment: fixed;
@@ -375,7 +375,12 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+  background-image: url(./aset/spl.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
 }
 
 .fa-layer-group,
